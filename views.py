@@ -1,6 +1,11 @@
 from flask import Blueprint, render_template, Response
+from LLM import llm
 
 views  = Blueprint('views,' , __name__)
+
+def catch():
+     llm("little boy")
+
 
 
 @views.route('/')
@@ -9,10 +14,15 @@ def home():
 
 @views.route('/interface')
 def interface():
-    return "this is interface page"
+        catch()
+        return "check the file"
+
 
 @views.route('/video')
 def video():
     return  "../assets/Silent spring.mp4"
+
+
+
     
      

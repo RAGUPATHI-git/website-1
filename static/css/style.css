@@ -41,7 +41,7 @@
     z-index: 0;
     border-radius: 12px;
     animation: glowing 20s linear infinite;
-    top: 150px;
+    top: 200px;
 
   }
   .btn::after {
@@ -96,3 +96,28 @@
     color: #000;
     font-weight: bold;
   }
+
+
+  /* styles.css */
+body {
+  background-color: #eff2f3; /* Light Sky Blue */
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: #000000; /* Bright Red for text */
+}
+
+.container {
+  background-color: #c9e60c; /* Bright Yellow */
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  height: 40%;
+  width: 70%;
+  bottom: 50%;
+  left: 0%;
+  right: 0%;
+  position: absolute;
+}
+
+
+
+
